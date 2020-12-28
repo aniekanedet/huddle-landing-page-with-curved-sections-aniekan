@@ -1,6 +1,4 @@
-@import "https://fonts.google.com/specimen/Poppins";
-@import "https://fonts.google.com/specimen/Open+Sans";
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@100&display=swap');
 body {
 font-family: 'Poppins', sans-serif;
 margin: 0;
@@ -19,16 +17,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-footer{
-    background-color: hsl(192, 100%, 9%);
-    color: #ffffff;
 
-}
 /* Footer Styles */
+footer{
+    color: #ffffff;
+}
 .grid-innersection{
+    background-color: hsl(192, 100%, 9%);
     display: grid;
     grid-template-columns: auto auto;
     padding: 50px;
+   
 }
 .footercolumn1{
     padding: 20px;
