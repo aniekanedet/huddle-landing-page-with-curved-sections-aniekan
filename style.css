@@ -1,0 +1,39 @@
+@import "https://fonts.google.com/specimen/Poppins";
+@import "https://fonts.google.com/specimen/Open+Sans";
+
+body {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+
+}
+/* Footer Styles */
+.grid-innersection{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+}
+.footercolumn1{
+    padding: 20px;
+}
+.footercolumn2{
+    padding: 20px;
+    padding-left:  250px;
+}
