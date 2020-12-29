@@ -1,27 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@100&display=swap');
-body {
-font-family: 'Poppins', sans-serif;
-margin: 0;
-padding: 0;
 
-}
-
-p {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
     font-family: 'Poppins', sans-serif;
-
-}
-
-h1, h2, h3, h4, h5, h6 {
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  h1 h2 h3 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
     font-family: 'Poppins', sans-serif;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  /* .container{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+  } */
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+  }
 
+
+.attribution {
+ font-size: 11px; text-align: center; 
+ background-color: hsl(192, 100%, 9%);
+ 
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
 
 /* Footer Styles */
 footer{
     color: #ffffff;
+
 }
+.footer-img{
+    margin-top: 10px;
+}
+.footer-img img{
+    max-width: 100%;
+    height: auto;
+} 
 .grid-innersection{
     background-color: hsl(192, 100%, 9%);
     display: grid;
@@ -34,5 +82,5 @@ footer{
 }
 .footercolumn2{
     padding: 20px;
-    padding-left:  250px;
+    padding-left:150px;
 }
