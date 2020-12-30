@@ -37,26 +37,8 @@
     width: 100%;
   }
   
-  /* .container{
-    width:100%;
-    margin:auto;
-    overflow:hidden;
-  } */
-  .container {
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: auto;
-  }
 
 
-.attribution {
- font-size: 11px; text-align: center; 
- background-color: hsl(192, 100%, 9%);
- 
-}
-.attribution a {
-     color: hsl(228, 45%, 44%); 
-}
 
 /* Footer Styles */
 footer{
@@ -84,3 +66,12 @@ footer{
     padding: 20px;
     padding-left:150px;
 }
+.attribution {
+  font-size: 11px; text-align: center; 
+  background-color: hsl(192, 100%, 9%);
+  
+ }
+ .attribution a {
+      color: hsl(228, 45%, 44%); 
+ }
+ 
