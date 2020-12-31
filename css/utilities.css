@@ -1,4 +1,46 @@
-  
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: hsl(192, 100%, 9%);
+  margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
 .container {
     max-width: 100%;
     margin: 0 auto;
