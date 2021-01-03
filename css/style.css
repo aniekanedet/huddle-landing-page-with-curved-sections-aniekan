@@ -1,22 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@100&display=swap');
 
+/* Navbar */
+
+.navbar {
+padding:20px;
+color: #fff;
+}
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.navbar img{
+  max-width: 15%;
+}
+.nav-btn button{  
+  padding: 20px 25px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  background-color: var(--light-pink) ;
+}
   /* Main Hero */
 
+.main-hero{
+  margin-top: 100px;;
+}
   .main-hero h1 {
-    text-align: center;
-    padding: 10px;
-  }
-  .main-hero p {
-    text-align: center;
-    padding: 10px;
-    
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.main-hero p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+}
 
-  }
+.main-btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+}
+.main-btn button{
+  padding: 20px 25px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  background-color: var(--light-pink) ;
+}
 
-.img-container{
+.main-img{
   min-width: 100%;
-  padding: 200px;
-  justify-content: center;
+  padding: 100px;
+  margin: auto;
 }
 
 /* Footer Styles */
