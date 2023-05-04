@@ -7,17 +7,19 @@
   --palse-blue:hsl(207, 100%, 98%);
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
+  background-color: hsl(0, 0%, 100%);
+  
 }
 
 ul {
@@ -31,20 +33,15 @@ a {
 
 h1, h2, h3 {
   color: hsl(192, 100%, 9%);
-  font-weight: 300;
   line-height: 1.2;
-  margin: 10px 0;
+  /* margin: 10px 0; */
   font-family: 'Poppins', sans-serif;
 }
 
 p {
   color: hsl(192, 100%, 9%);
-  margin: 10px 0;
+  /* margin: 10px 0; */
   font-family: 'Poppins', sans-serif;
-}
-
-img {
-  /* width: 100%; */
 }
 
 .container {
@@ -53,12 +50,12 @@ img {
     overflow: auto;
   }
   
-.flex {
+/* .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
+  } */
   
 .grid {
     display: grid;
